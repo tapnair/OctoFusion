@@ -11,10 +11,15 @@ See a youtube video of using the script here: TODO
 
 Basic usage:
   Open up Octoprint settings
+  
   Get personal API key
+  
   Have you intalled local CURA slicing engine?
+  
   Yes?
+  
   Get name of printer profile and slicing profile from settings dialog
+  
   Save your personal settings for future use.
 
 ## License

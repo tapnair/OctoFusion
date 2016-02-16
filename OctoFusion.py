@@ -1,8 +1,6 @@
-#Author-Octoprint
-#Description-Request a fabber quote from Octoprint.
-# Patrick is the BOMB!!!!
-# Kevin is the BOM
-# Jeremy is a loooser
+# Author-Patrick Rainsberry
+# Description-Upload FUsion 360 model directly to Octoprint.
+# Referenced heavily from: https://github.com/boboman/Octonomous/blob/master/Octonomous.py
 
 import adsk.core, traceback
 import adsk.fusion

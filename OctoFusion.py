@@ -7,15 +7,12 @@
 import adsk.core, traceback
 import adsk.fusion
 import tempfile
-import uuid
 import json
 import webbrowser
-import importlib
 from .packages import requests
 from .packages.requests_toolbelt import MultipartEncoder
 
 from xml.etree import ElementTree
-from xml.etree.ElementTree import Element
 from xml.etree.ElementTree import SubElement
 
 from os.path import expanduser

@@ -9,6 +9,19 @@ First see [How to install sample Add-Ins and Scripts](https://rawgit.com/Autodes
 
 See a youtube video of using the script here: TODO
 
+Basic usage:
+  * Open up Octoprint settings
+  
+  * Get personal API key
+  
+  * Have you intalled local CURA slicing engine?
+  
+  * Yes?
+  
+  * Get name of printer profile and slicing profile from settings dialog
+  
+  * Save your personal settings for future use.
+
 ## License
 Samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
 

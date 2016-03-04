@@ -30,7 +30,7 @@ def getFileName():
         
         if not os.path.exists(home):
             os.makedirs(home)
-        
+
         xmlFileName = home  + 'settings.xml'
         
         return xmlFileName

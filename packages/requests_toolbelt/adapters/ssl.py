@@ -9,9 +9,9 @@ in this blog post:
 https://lukasa.co.uk/2013/01/Choosing_SSL_Version_In_Requests/
 
 """
-import requests
+from ....packages import requests
 
-from requests.adapters import HTTPAdapter
+from ....packages.requests.adapters import HTTPAdapter
 
 from .._compat import poolmanager
 

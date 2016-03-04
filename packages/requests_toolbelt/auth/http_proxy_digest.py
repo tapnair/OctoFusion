@@ -2,7 +2,7 @@
 """The module containing HTTPProxyDigestAuth."""
 import re
 
-from requests import cookies, utils
+from ....packages.requests import cookies, utils
 
 from . import _digest_auth_compat as auth
 

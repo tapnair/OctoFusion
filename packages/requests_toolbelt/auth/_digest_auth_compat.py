@@ -1,5 +1,5 @@
 """Provide a compatibility layer for requests.auth.HTTPDigestAuth."""
-import requests
+from ....packages import requests
 
 
 class _ThreadingDescriptor(object):

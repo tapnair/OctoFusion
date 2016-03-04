@@ -10,7 +10,7 @@ need to provide the data as an iterator. This class will allow you to specify
 the size and stream the data without using a chunked transfer-encoding.
 
 """
-from requests.utils import super_len
+from ...packages.requests.utils import super_len
 
 from .multipart.encoder import CustomBytesIO, encode_with
 

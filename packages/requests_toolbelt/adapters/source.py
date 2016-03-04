@@ -6,7 +6,7 @@ requests_toolbelt.source_adapter
 This file contains an implementation of the SourceAddressAdapter originally
 demonstrated on the Requests GitHub page.
 """
-from requests.adapters import HTTPAdapter
+from ....packages.requests.adapters import HTTPAdapter
 
 from .._compat import poolmanager, basestring
 

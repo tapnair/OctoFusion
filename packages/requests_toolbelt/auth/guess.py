@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """The module containing the code for GuessAuth."""
-from requests import auth
-from requests import cookies
+from ....packages.requests import auth
+from ....packages.requests import cookies
 
 from . import _digest_auth_compat as auth_compat, http_proxy_digest
 

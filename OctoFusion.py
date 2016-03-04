@@ -1,8 +1,5 @@
-#Author-Octoprint
-#Description-Request a fabber quote from Octoprint.
-# Patrick is the BOMB!!!!
-# Kevin is the BOM
-# Jeremy is a loooser
+#Author-Patrick Rainsberry
+#Description-Directly publish to OctoPrint
 
 import adsk.core, traceback
 import adsk.fusion
@@ -10,8 +7,9 @@ import tempfile
 import uuid
 import json
 import webbrowser
-import requests
-from requests_toolbelt import MultipartEncoder
+import importlib
+from .packages import requests
+from .packages.requests_toolbelt import MultipartEncoder
 
 from xml.etree import ElementTree
 from xml.etree.ElementTree import Element

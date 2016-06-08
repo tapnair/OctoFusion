@@ -7,7 +7,8 @@ Easily push Fusion 360 design to OctoPrint and instantly start printing!
 ## Usage:
 First see [How to install sample Add-Ins and Scripts](https://rawgit.com/AutodeskFusion360/AutodeskFusion360.github.io/master/Installation.html)
 
-See a youtube video of using the script here: TODO
+See a youtube video of using the script here:
+https://youtu.be/_8f63GZO_oM
 
 Basic usage:
   * Open up Octoprint settings
@@ -18,7 +19,7 @@ Basic usage:
   
   * Yes?
   
-  * Get name of printer profile and slicing profile from settings dialog
+  * Note the name of printer profile and slicing profile from settings dialog
   
   * Save your personal settings for future use.
 

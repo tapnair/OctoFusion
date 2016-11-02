@@ -403,7 +403,7 @@ class FusionOctoprintCreatedEventHandler(adsk.core.CommandCreatedEventHandler):
             
             cmd.commandCategoryName = 'Octoprint'
             cmd.setDialogInitialSize(500, 300)
-            cmd.setDialogMinimumSize(500, 300)
+            cmd.setDialogMinimumSize(300, 300)
 
             cmd.okButtonText = 'Ok'
             
